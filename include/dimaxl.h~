@@ -1,0 +1,13 @@
+
+ private:
+}
+
+class Item
+{
+ public:
+  Item(const float start_point, const float end_point);
+
+ private:
+  float start_point_;
+  float end_point_;
+}
