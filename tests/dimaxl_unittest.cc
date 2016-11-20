@@ -2,6 +2,11 @@
 #include "dimaxl.h"
 #include "gtest/gtest.h"
 
-TEST(TestMe, WillItCompile) {
+TEST(DiMaxL, WillItCompile) {
+  // Arrange
+
+  // Act
   EXPECT_EQ(1, 1);
+
+  // Assert
 }

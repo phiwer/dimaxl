@@ -4,7 +4,7 @@ class Item
  public:
   Item(const float start_point, const float end_point);
 
-  float length() const;
+  float Length() const;
 
  private:
   float start_point_;
@@ -14,7 +14,14 @@ class Item
 class DiMaxL 
 {
  public:
-  void solve();
+  int GetIntervals() const;
+  int GetPoints() const;
+
+  void Solve();
+
+
  private:
+  int intervals_;
+  int points_;
 };
 
